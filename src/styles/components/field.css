@@ -28,14 +28,10 @@
   border: var(--border);
   border-radius: var(--border-radius);
 
-  &:hove,
-  &:focus {
-    color: var(--color-dark-2);
-  }
-
   &:focus {
     background-color: var(--color-gray-1);
     outline: none;
+    border-color: var(--color-gray-4);
   }
 
   &[type="search"] {
